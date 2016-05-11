@@ -1,19 +1,34 @@
 
-h1 {
-    text-align: center;
-    font-size: 50px;
-    color: blue;
-    font-family: arial
-}
-
 body {
-    background:#009933;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image:url("")
+}
+main{
+    flex: 1 0 auto;
+    font-family: 'Inconsolata' ;
 }
 
- article {
-    
-    font-family: arial;
+/*Blog Posts*/
+
+.blog-post {
+    margin-bottom: 60px;
+    font-family: 'Inconsolata' ;
 }
+
+.blog-post-title {
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-family: 'Inconsolata' ;
+}
+
+.blog-post-meta{
+    margin-bottom: 20px;
+    color: #999;
+    font-family: 'Inconsolata' ;
+}
+
 #wrapper{
     width:800px;
     border: 1px solid black;
@@ -34,8 +49,7 @@ body {
        right: 0;
        
     }
-
-    nav div {
+        nav div {
          
         text-align: center;
         width: 700px;
@@ -49,49 +63,9 @@ div { /*
          width: 1000px; 
         text-align: right;*/
          padding: 30px;
-         background-color: beige
+         background-color: beige;
              /*#33AD5C;*/
        
 }
 
-p { 
-	 position: relative; 
-	left: -10px;
-        font-size: 20px;
-        font-family: arial;
-        color: black;
-        
-}
 
-h3 {
-   font-size: 30px;
-   color: blue;
-   font-family: arial;
-}
-
-
-table2, th2, td2 {
-   border: 0;
-   font-family: Arial;
-   color: #00FF00;
-   font-size: 30px;
-   margin-top: 0px;
-}
-td2 {
-    padding: 35px;
-}
-
-a.class1 {color: red; }
-a.class1:link {text-decoration:none;
-color: #00FF00;
-}
-a.class1:visited {text-decoration:none;
-color: #99FF33;
-}
-a.class1:hover {text-decoration:none;
-color: #00CC00;
-}
-
-h5 {
-    font-family: arial;
-}
