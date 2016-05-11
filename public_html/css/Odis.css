@@ -1,71 +1,42 @@
-
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-image:url("")
-}
-main{
-    flex: 1 0 auto;
-    font-family: 'Inconsolata' ;
+    font-family: 'Indie Flower', cursive;
+    background-image:url("http://www.wallpapersgool.com/wp-content/uploads/2016/03/free_high_definition_blue_wallpaper.jpg")
 }
 
-/*Blog Posts*/
+main {
+    flex: 1 0 auto;
+    
+}
+
+/*blog posts*/
 
 .blog-post {
     margin-bottom: 60px;
-    font-family: 'Inconsolata' ;
 }
 
 .blog-post-title {
     margin-bottom: 5px;
     font-size: 40px;
-    font-family: 'Inconsolata' ;
 }
 
-.blog-post-meta{
+.blog-post-meta {
     margin-bottom: 20px;
     color: #999;
-    font-family: 'Inconsolata' ;
+    font-style: italic;
+    
 }
 
-#wrapper{
-    width:800px;
-    border: 1px solid black;
-    position: relative;
-    
-    
-    }
-    #first {
-        width: 100px;
-      float: left;
-      
-       }
-    #second {
-      
-       position: absolute;
-       top:0;
-       left: 275px;
-       right: 0;
-       
-    }
-        nav div {
-         
-        text-align: center;
-        width: 700px;
-        padding: 30px;
-     
-        
-    }
-
-div { /*
-	 height: 700px;
-         width: 1000px; 
-        text-align: right;*/
-         padding: 30px;
-         background-color: beige;
-             /*#33AD5C;*/
-       
+h3 {
+    font-size: 20px
 }
 
+h5 {
+    font-size: 50px
+}
 
+h6 {
+    font-size: 25px
+}
