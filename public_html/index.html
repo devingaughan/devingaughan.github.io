@@ -8,7 +8,7 @@
         <link type="text/css" rel="stylesheet" href="css/Odis.css">
         <link rel="icon" href="data:;base64,iVBORwOKGgo=">
         <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
-        
+
 
 
         <!--Let browser know website is optimized for mobile-->
@@ -21,15 +21,28 @@
                 <div class="row blue col s6">
                     <div><a class="brand-logo">
                             <img src="img/odisbanner2.jpg" height="60" width="400" 
-                          
+
                         </a></div>
 
-                    <div><ul class="right">
+                   <!-- Dropdown Structure -->
+                    <ul id="dropdown1" class="dropdown-content">
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="oldnews.html">Old News</a></li>
+                        <li class="divider"></li>
+                      
+                    </ul>
 
 
-                            <li><a href="News.html">News<span class="badge"></span></a></li>
 
-                        </ul></div> 
+
+
+
+                    <ul class="right hide-on-med-and-down">
+                        
+                        <!-- Dropdown Trigger -->
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">News<i class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+
 
                     <div><ul class="right">
                             <li><a href="creator.html">Creators<span class="badge"></span></a></li>
@@ -46,15 +59,18 @@
                     <div><ul class="right">
                             <li><a href="index.html">Home<span class="badge"></span></a></li>
 
-                        </ul></div> 
-
-
-              
+                    
 
 
 
+                    
 
 
+
+
+
+
+                </div>
             </nav>
         </header>
         <main>
