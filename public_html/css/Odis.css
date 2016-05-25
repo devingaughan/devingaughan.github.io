@@ -3,8 +3,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     font-family: 'Indie Flower', cursive;
-     background-color: #d6d6c2
-     
+    background-image:url("http://www.snazzyspace.com/wallpapers/000000_light-purple.png")
 }
 
 main {
@@ -55,4 +54,32 @@ h6 {
     height:20px;
     margin:0 5px;
     
+}
+
+.hs {
+    margin-bottom: 20px;
+}
+
+.hd {
+    margin-bottom: 20px;
+}
+
+.hw {
+    margin-bottom: 20px;
+}
+
+.devin {
+   margin-right: 100px;
+    
+}
+
+.isaiah {
+    margin-right: 15px;
+}
+.isaiahpic {
+    height: 375px;
+    width: 265px;
+}
+.heroes {
+    margin-right: 120px;
 }
