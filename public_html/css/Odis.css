@@ -69,12 +69,12 @@ h6 {
 }
 
 .devin {
-   margin-right: 100px;
+   margin-right: 90px;
     
 }
 
 .isaiah {
-    margin-right: 15px;
+    margin-right: 10px;
 }
 .isaiahpic {
     height: 375px;
@@ -82,4 +82,7 @@ h6 {
 }
 .heroes {
     margin-right: 120px;
+}
+p, h1 {
+    color: white;
 }
