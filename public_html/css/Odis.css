@@ -3,7 +3,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     font-family: 'Indie Flower', cursive;
-    background-image:url("http://www.snazzyspace.com/wallpapers/000000_light-purple.png")
+    Background-color:#e0e0e0;
 }
 
 main {
@@ -58,6 +58,10 @@ h6 {
 
 .hs {
     margin-bottom: 20px;
+    display: block;
+    max-width: 0 auto 30px;
+    border-radius: 15%;
+
 }
 
 .hd {
@@ -66,24 +70,37 @@ h6 {
 
 .hw {
     margin-bottom: 20px;
+    display: block;
+    max-width: 0 auto 30px;
+    border-radius: 15%;
 }
 
 .devin {
-   margin-right: 90px;
+   margin-right: 10px;
     
 }
 
 .isaiah {
     margin-right: 10px;
+    margin-bottom: 200px;
 }
 .isaiahpic {
     height: 375px;
     width: 265px;
+    display: block;
+    max-width: 0 auto 30px;
+    border-radius: 15%;
 }
+
 .heroes {
     margin-right: 120px;
 }
 p, h1 {
-    color: white;
+    color: black;
 }
-b
+.fw {
+    display: block;
+    max-width: 0 auto 30px;
+    border-radius: 15%;
+
+}
