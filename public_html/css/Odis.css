@@ -3,7 +3,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     font-family: 'Indie Flower', cursive;
-    Background-color:#e0e0e0;
+    Background-color:#c5cae9;
 }
 
 main {
@@ -103,4 +103,9 @@ p, h1 {
     max-width: 0 auto 30px;
     border-radius: 15%;
 
+}
+
+h3 {
+    text-align: center;
+    
 }
